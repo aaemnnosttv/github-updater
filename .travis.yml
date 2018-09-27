@@ -45,4 +45,4 @@ deploy:
   file: /tmp/github-updater.${TRAVIS_TAG}.zip
   on:
     tags: true
-    condition: ${TRAVIS_PHP_VERSION} = "7.2"
+    php: 7.2
